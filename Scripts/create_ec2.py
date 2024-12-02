@@ -10,6 +10,6 @@ instance = ec2.create_instances(
     MinCount=1,
     MaxCount=1,
     InstanceType='t2.micro',
-    KeyName='MyKeyPair'
+    KeyName='Lalit-Borse'
 )
 print(f'Created instance: {instance[0].id}')
