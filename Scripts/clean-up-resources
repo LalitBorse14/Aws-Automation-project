@@ -1,0 +1,6 @@
+commands use to clean up
+
+delete ec2 instance
+    aws ec2 terminate-instances --instance-ids i-0abcdef1234567890
+delete s3 bucket
+    aws s3 rb s3://my-automation-bucket11 --force
