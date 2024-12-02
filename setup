@@ -1,0 +1,12 @@
+Install AWS CLI
+  Follow the AWS CLI installation guide.
+Configure AWS CLI
+    command: aws configure
+    Enter:
+      Access Key: From your AWS account. (for that you need IAM user's Access key )
+      Secret Key: From your AWS account. (for that you need IAM user's Secret key )
+      Region: e.g., us-east-1.
+      Output format: json.
+Install Python and Boto3
+    Install Python from Python.org.
+    Install Boto3 library
