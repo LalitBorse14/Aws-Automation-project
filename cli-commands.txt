@@ -1,0 +1,11 @@
+Commands for S3
+  Create S3 bucket from cli
+    aws s3 mb s3://my-automation-bucket11
+  Upload file to s3 bucket
+    aws s3 cp myfile.txt s3://my-automation-bucket/
+
+Commands for EC2 
+  create ec2 instance
+    aws ec2 run-instances --image-id ami-0abcd1234abcd5678 --count 1 --instance-type t2.micro --key-name MyKeyPair
+
+    
